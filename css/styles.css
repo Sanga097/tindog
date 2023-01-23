@@ -33,7 +33,7 @@ p{
 }
 
 .container-fluid{
-    padding: 3% 15% ;
+    padding: 3% 15% 7%;
 }
 
 /* navigation bar */
@@ -67,14 +67,19 @@ p{
 /* title img */
 
  .title-img{
-    width: 60%;
+    width: 25%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
  }
 
  /* features-section */
  
  #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative; 
+    z-index: 1;  
  }
 
  .feature-box{
@@ -120,4 +125,23 @@ p{
     margin: 20px 20px 50px;
 }
 
+/* pricing section */
 
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+.pricing-btn{
+    width: 100%;
+}
+
+
+@media screen {
+    
+}
